@@ -20,8 +20,6 @@ def extract_ips(result):
 
 ips=[]
 
-#ips2 = ['177.124.130.31','177.36.137.30']
-
 try:
     with open('dns_ips.txt', 'r') as file:
         for line in file:
